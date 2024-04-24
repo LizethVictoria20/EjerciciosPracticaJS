@@ -9,6 +9,7 @@ function SalarioVendedores(){
     let totalSalario = 0;
     let porcentajeVentas = 0;
     
+    
     for (let i = 1; i < TotalVentas + 1; i++) {
         valorPorVenta = parseInt(prompt(`Ingrese el valor de la venta ${i}: `));
         totalVentas += valorPorVenta;
